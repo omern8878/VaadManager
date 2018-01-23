@@ -1,0 +1,39 @@
+{
+  "name": "iVaadClient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "history": "^4.7.2",
+    "immutable": "^3.8.2",
+    "jquery": "^3.2.1",
+    "prop-types": "^15.6.0",
+    "react-native": "^0.51.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.77.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.8",
+    "html-webpack-plugin": "^2.30.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "scripts": {
+    "start": "webpack",
+    "dev": "webpack-dev-server --inline"
+  },
+  "keywords": [],
+  "author": "Omer Nachtigal",
+  "license": "ISC"
+}
