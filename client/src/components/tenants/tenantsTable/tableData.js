@@ -8,22 +8,17 @@ class TenantsTableData extends React.Component{
         super(props);
     }
 
-    render(){
-        if(this.props.tenants.size === 0){
-            return(
-                <Table.Body>
+    createRow(tenant){
+        return <TenantsTableRow key={tenant.id} tenant={tenant}/>;
+    }
 
-                </Table.Body>
-            );
-        }
+    render(){
+
+        let tenantsRows = this.props.tenants.valueSeq().map(this.createRow);
+
         return(
             <Table.Body>
-                {
-                    this.props.tenants.map(tenant => {
-                        console.log(tenant);
-                        return <TenantsTableRow key={tenant.id} tenant={tenant}/>;
-                    })
-                }
+                {tenantsRows}
             </Table.Body>
         );
     }

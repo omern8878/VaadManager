@@ -3,7 +3,7 @@ const TenantsAPI = {
         return([
             {
                 id: 0,
-                familyName: 'Nachtigal',
+                familyName: 'נכטיגל',
                 floor: 4,
                 appartment: 15,
                 peopleAmount: 6,
@@ -12,7 +12,7 @@ const TenantsAPI = {
             },
             {
                 id: 1,
-                familyName: 'Meir',
+                familyName: 'מאיר',
                 floor: 4,
                 appartment: 16,
                 peopleAmount: 5,

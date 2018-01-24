@@ -10,13 +10,11 @@ class TenantsTableFooter extends React.Component {
         return(
             <Table.Footer fullWidth>
                 <Table.Row>
-                    <Table.HeaderCell colSpan='4'>
+                    <Table.HeaderCell colSpan='6'>
                         <Button floated='right' icon labelPosition='left' primary size='small'
                                 onClick={this.props.openNewTenantModal}>
-                            <Icon name='user' /> Add User
+                            <Icon name='user' /> הוסף דייר
                         </Button>
-                        <Button size='small'>Approve</Button>
-                        <Button disabled size='small'>Approve All</Button>
                     </Table.HeaderCell>
                 </Table.Row>
             </Table.Footer>

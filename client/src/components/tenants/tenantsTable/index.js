@@ -13,7 +13,7 @@ class TenantsTableComponent extends React.Component{
     render(){
         return(
             <Container>
-                <Table compact celled>
+                <Table compact celled textAlign='right'>
                     <TenantsTableHeader/>
                     <TenantsTableData tenants={this.props.tenants}/>
                     <TenantsTableFooter openNewTenantModal={this.props.openNewTenantModal}/>
